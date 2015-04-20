@@ -1,0 +1,57 @@
+'.text.html':
+	'HTML5':
+		'prefix': 'html5'
+		'body': """
+			<!DOCTYPE html>
+			<html lang="en-ca">
+			<head>
+				<meta charset="utf-8">
+				<title>${1}</title>
+			</head>
+			<body>
+				${2}
+			</body>
+			</html>
+		"""
+	'CCS Link':
+		'prefix': 'css'
+		'body': '<link href="${1}.css" rel="stylesheet">'
+	'Viewport':
+		'prefix': 'viewport'
+		'body': '<meta name="viewport" content="width=device-width,initial-scale=1">'
+	'Meta':
+		'prefix': 'meta'
+		'body': '<meta name="${1}" content="${2}">'
+	'JS Script':
+		'prefix': 'jss'
+		'body': '<script src="${1}.js"></script>'
+
+'.source.css':
+	'CSS Viewport':
+		'prefix': 'cssviewport'
+		'body': """
+			@-moz-viewport { width: device-width; scale: 1; }
+			@-ms-viewport { width: device-width; scale: 1; }
+			@-o-viewport { width: device-width; scale: 1; }
+			@-webkit-viewport { width: device-width; scale: 1; }
+			@viewport { width: device-width; scale: 1; }
+		"""
+	'Border Box':
+		'prefix': 'borderbox'
+		'body': """
+			html {
+				box-sizing: border-box;
+			}
+
+			*, *::before, *::after {
+				box-sizing: inherit;
+			}
+		"""
+	'Text Size Adjust':
+		'prefix': 'textsize'
+		'body': """
+			-moz-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			-webkit-text-size-adjust: 100%;
+			text-size-adjust: 100%;
+		"""
