@@ -1,6 +1,6 @@
-# Atom code samples
+# Atom downloads
 
-Code samples for the Atom tutorial.
+Downloads for the Atom tutorial.
 
 ### [☛ Tutorials & videos](http://learn-the-web.algonquindesign.ca/topics/atom/)
 
