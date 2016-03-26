@@ -55,3 +55,12 @@
       -webkit-text-size-adjust: 100%;
       text-size-adjust: 100%;
     """
+  'Media Query':
+    'previx': 'mq'
+    'body': """
+      @media only screen and (min-width: ${1:"25"}em) {
+
+        ${2}
+
+      }
+    """
