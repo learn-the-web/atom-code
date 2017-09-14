@@ -13,7 +13,7 @@
       </body>
       </html>
     """
-  'CCS Link':
+  'CSS Link':
     'prefix': 'css'
     'body': '<link href="${1}.css" rel="stylesheet">'
   'Viewport':
